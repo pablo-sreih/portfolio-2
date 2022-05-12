@@ -1,0 +1,47 @@
+.back-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    height: 1000px;
+    width: auto;
+    background-image: url("../assets/images/desk-office.jpg");
+    background-position: center; 
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 15px;
+}
+
+
+.flex-child{
+    flex-basis:auto;
+    margin: 12px;
+    width: 280px;
+    height: 300px;
+    border-width: 5px;
+    border-radius: 15px;
+    background-color: rgba(0, 0, 0, 0.4);
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    /* font-weight: bold; */
+    font-size: small;
+    padding: 10px;
+}
+
+.flex-child-img{
+    flex-basis:content;
+    margin-top: 12px;
+    width: 280px;
+    height: 300px;
+}
+
+.img-pp{
+    border-width: 5px;
+    border-style: solid;
+    border-color: black;
+    border-radius: 15px;
+    width:280px;
+}
+
+.margin{
+    margin: 3px;
+}
